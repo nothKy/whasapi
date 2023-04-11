@@ -12,14 +12,14 @@ easy way to create a Whatsapp Bot.
 ## Installation
 
 ```bash
-npm install @kazedevid/whasapi
+npm install whasapi
 ```
 
 ## Example
 
 ```ts
-import { Client } from "@kazedevid/whasapi";
-import { Events } from "@kazedevid/whasapi/dist/Constant";
+import { Client } from "whasapi";
+import { Events } from "whasapi/dist/Constant";
 
 const bot = new Client({
   name: "something",
@@ -77,7 +77,7 @@ With command handler you dont need all your command is located in one file.
 
 - #### in your main file
   ```ts
-  import { CommandHandler } from "@kazedevid/whasapi";
+  import { CommandHandler } from "whasapi";
   import path from "path";
 
   /* ... */
@@ -102,7 +102,7 @@ With command handler you dont need all your command is located in one file.
 Cooldown can give a delay on the command. This can be done to prevent users from spamming your bot commands.
 
 ```diff
-+ import { Cooldown } from "@kazedevid/whasapi";
++ import { Cooldown } from "whasapi";
 
 bot.command({
   name: "ping",
@@ -142,7 +142,7 @@ cd.timeleft; // number
   make a button message with Button Builder.
 
   ```ts
-  import { ButtonBuilder } from "@kazedevid/whasapi";
+  import { ButtonBuilder } from "whasapi";
 
   // you can use more than 1 builder
   const btn = new ButtonBuilder()
@@ -158,7 +158,7 @@ cd.timeleft; // number
   Sections message is like a list.
 
   ```ts
-  import { SectionBuilder } from "@kazedevid/whasapi";
+  import { SectionBuilder } from "whasapi";
 
   // you can use more than 1 like buttons
   const a = new SectionBuilder()
