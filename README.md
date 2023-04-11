@@ -215,7 +215,7 @@ export interface CollectorArgs {
 
 Firstly you must import the Events Constant like this:
 ```ts
-import { Events } from "@mengkdoingan/whasapi/dist/Constant";
+import { Events } from "whasapi/dist/Constant";
 ```
 
 
