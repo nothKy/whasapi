@@ -254,4 +254,5 @@ kaze.sender // { jid: string, pushName: string }
 
 ## ```Thanks to ✨```
 
-[![adiwajshing](https://github.com/adiwajshing.png?size=70)](https://github.com/adiwajshing/baileys)
+[![adiwajshing](https://github.com/adiwajshing.png?size=70)](https://github.com/adiwajshing/Baileys)
+[![KazeDevID](https://github.com/KazeDevID.png?size=70)](https://github.com/KazeDevID/whasapi)
