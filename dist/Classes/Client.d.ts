@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { AuthenticationState } from "@adiwajshing/baileys/lib/Types";
+import { AuthenticationState } from "baileys/lib/Types";
 import EventEmitter from "events";
 import { Collection } from "@discordjs/collection";
 import { ClientOptions, CommandOptions } from "../Common/Types";
