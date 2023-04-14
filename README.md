@@ -23,7 +23,7 @@ import { Events } from "whasapi/dist/Constant";
 
 const bot = new Client({
   name: "something",
-  prefix: ["!"], //You can also add another prefix ['!', '#']
+  prefix: ["!"], //You can also add another prefix ["!", "#", "."]
   readIncommingMsg: true
 });
 
