@@ -12,7 +12,7 @@ easy way to create a Whatsapp Bot.
 ## Installation
 
 ```bash
-npm install whasapi
+npm install github:nothKy/whasapi
 ```
 
 ## Example
