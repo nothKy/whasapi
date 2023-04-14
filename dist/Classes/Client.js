@@ -53,8 +53,10 @@ class Client {
         this.ev = new events_1.default();
         this.cmd = new collection_1.Collection();
         this.cooldown = new collection_1.Collection();
+        /*
         if (typeof this.prefix === "string")
             this.prefix = this.prefix.split('');
+        */
     }
     WAVersion() {
         return __awaiter(this, void 0, void 0, function* () {
